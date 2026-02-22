@@ -1,5 +1,153 @@
 <!DOCTYPE html>
-<html>
-<head><title>Page 3 Consulting</title></head>
-<body><h1>Coming Soon</h1></body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page Three Consulting — Streamlining operations for creative agencies and small businesses. No band-aids. No long-term temporary fixes.">
+  <title>Page Three Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo" aria-label="Page Three Consulting home">
+        <img src="assets/logo.jpg" alt="Page Three Consulting logo" width="44" height="44">
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact" class="nav__cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero__shapes" aria-hidden="true">
+      <div class="hero__shape hero__shape--1"></div>
+      <div class="hero__shape hero__shape--2"></div>
+      <div class="hero__shape hero__shape--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Operations Consulting</p>
+      <h1 class="hero__title">Streamlining Operations for <span>Creative Agencies</span> &amp; Small Business</h1>
+      <p class="hero__sub">All businesses share the same foundational parts. What makes yours unique also creates friction &mdash; causing profit loss and inefficiencies. Page Three finds those friction points and helps you fix them for good.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Let's Talk</a>
+        <a href="#services" class="btn btn--ghost">See Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">About Us</span>
+        <h2 class="section-title" id="about-heading">No band-aids.<br>No long-term temporary fixes.</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>Page 3 believes in helping you find and solve the <strong>root</strong> of an issue &mdash; not papering over it. We work with you and your team to streamline processes and enhance what makes you unique, leaving you with well-documented systems and the metrics to sustain improvements long after we're gone.</p>
+          <p>Most of the time, the solution already exists in your company's collective knowledge. You just need an outside perspective to ask the right questions and surface it.</p>
+          <p>We collect existing data, design targeted surveys, and talk directly to your team. Then we deliver clear, practical recommendations &mdash; not a binder that collects dust.</p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__value">2 &ndash; 100K</span>
+            <span class="stat__label">Company size range we've served</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">4+</span>
+            <span class="stat__label">Industries: defense, consumer goods, software &amp; non-profit</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">One goal</span>
+            <span class="stat__label">Find the friction. Fix the foundation.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title" id="services-heading">How We Help</h2>
+      </div>
+      <div class="services__grid">
+
+        <article class="service-card">
+          <div class="service-card__num" aria-hidden="true">01</div>
+          <h3>Operational Audit</h3>
+          <p>A cost-fixed project that maps your overarching process flow &mdash; from business development through service delivery. We discover how your business actually works through observation, interviews, and embedding directly with your team.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num" aria-hidden="true">02</div>
+          <h3>Process Engineering</h3>
+          <p>Establishing or re-engineering procedures across design, hiring, software development, purchasing, and supply chain. We evaluate your current plans, communications, and vision to increase efficiency and reduce drag.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num" aria-hidden="true">03</div>
+          <h3>Tools &amp; Automation</h3>
+          <p>Ensuring you have the right tools &mdash; properly integrated and automated &mdash; for smooth communication, project management, and data collection. Every step kept as simple as your team can realistically maintain.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num" aria-hidden="true">04</div>
+          <h3>Ongoing Support</h3>
+          <p>Monthly subscriptions and hourly plans to handle day-to-day or emergency operational issues. Quick, practical solutions delivered fast &mdash; because your most valuable resource is time.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num" aria-hidden="true">05</div>
+          <h3>Creative Agency Ops</h3>
+          <p>Specializing in building flexible, tuned standard operating procedures for creative agencies &mdash; accounting for your team's uniqueness and their ability to sustain every improvement we put in place.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num" aria-hidden="true">06</div>
+          <h3>Peer Groups</h3>
+          <p>Small business leaders meet monthly to work through high-priority issues, celebrate wins, and lean on each other. Members stay connected between sessions to ask questions and share resources.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <div class="contact__shapes" aria-hidden="true">
+      <div class="contact__shape contact__shape--1"></div>
+      <div class="contact__shape contact__shape--2"></div>
+    </div>
+    <div class="container contact__inner">
+      <span class="section-label section-label--light">Get In Touch</span>
+      <h2 class="section-title section-title--light" id="contact-heading">Ready to remove the friction?</h2>
+      <p class="contact__sub">Whether you run a creative agency or a small business, we'd love to hear what you're working through. Reach out and let's find the root of it together.</p>
+      <a href="mailto:info@page3consulting.com" class="btn btn--white">info@page3consulting.com</a>
+      <p class="contact__location">Based in Haddonfield, NJ &mdash; working with teams everywhere</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <img src="assets/logo.jpg" alt="Page Three Consulting" width="32" height="32">
+      <p>&copy; 2026 Page Three Consulting. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
 </html>
